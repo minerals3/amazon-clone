@@ -237,7 +237,7 @@ ul {
 /*boxes*/
 .nav-ul{
     list-style-type: none;
-    
+    display: flex;
 }
 
 .nav-ul, ul{
@@ -248,8 +248,7 @@ ul {
 }
 
 .navdiv{
-    display: inline-block;
-    padding: 0 5px;
+    display: flex;
     position: relative;
     vertical-align: middle;
 
@@ -261,10 +260,13 @@ ul {
 }
 
 .nav-a{
+    display: flex;
     text-decoration:none;
-    margin: 5px 0 6px 0;
+    text-align: center;
+    align-items: center;
     padding: 8px 5px;
-    height: 39px;
+    height: 38.5px;
+    margin: 0 15px 0 0;
 }
 
 /*right*/
@@ -273,5 +275,23 @@ ul {
 }
 
 /*hero section*/
+.hero-section{
+    background-color: whitesmoke;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(255,255,255,0) 60%,
+            rgba(255,255,255,1) 100%
+        ),
+        url("img/heroimg.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+
+
+
+
 
 
