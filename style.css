@@ -271,11 +271,15 @@ ul {
 
 /*right*/
 .right{
-    width:30px;
+    width: 30px;
 }
 
 /*hero section*/
 .hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: whitesmoke;
     background-image: linear-gradient(
             to bottom,
@@ -283,13 +287,36 @@ ul {
             rgba(255,255,255,1) 100%
         ),
         url("img/heroimg.jpg");
-    background-size: contain;
+    
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;
+    height: 800px;
+    width: 100%;
+
 }
 
+.heromsg{
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+    
+}
+
+.heromsg p{
+    color: black;
+    
+}
+
+.heromsg a{
+    color: rgba(5, 185, 209, 0.993);
+    text-decoration: none;
+}
 
 
 
