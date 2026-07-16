@@ -24,6 +24,7 @@ ul {
     display: list-item;
 }
 
+
 /*upperbelt*/
 .navbelt{
     height: 60px;
@@ -35,6 +36,7 @@ ul {
     justify-content: space-evenly;
 }
 
++-
 /*b1*/
 .navlogo{
     height: 50px;
@@ -51,8 +53,9 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     height: 50px;
-    width: 100%;
-    
+    width: 150px;
+    justify-content: center;
+    align-items: center;
 }
 
 .border{
@@ -93,11 +96,12 @@ ul {
     margin-left: 20px;
 }
 
+
 /*b3*/
 .navsearch{
     display:flex;
     height: 40px;
-    width: 750px;
+    width: 950px;
     display: flex;
     background-color: #febd69;
     border-radius: 4px;
@@ -137,10 +141,12 @@ ul {
     font-size: 1.2rem;
 }
 
+
 /*b4*/
 .navlang{
     width: 60px;
 }
+
 
 /*b5*/
 .signin{
@@ -165,6 +171,7 @@ ul {
     font-weight:bold;
 }
 
+
 /*b6*/
 .returns{
     margin: 0 1px;
@@ -176,6 +183,7 @@ ul {
     height: 45px;
     width: 80px;
 }
+
 
 /*b7*/
 .cart{
@@ -200,6 +208,7 @@ ul {
     font-size: 30px;
 }
 
+
 /*lowerbelt*/
 .navmain{
     display: flex;
@@ -209,6 +218,7 @@ ul {
     /*justify-content: space-evenly;*/
 }
  
+
 /*left*/
 /*b1*/
 .allmenu{
@@ -233,6 +243,7 @@ ul {
     width: 70%;
     height: 100%;
 }
+
 
 /*boxes*/
 .nav-ul{
@@ -274,11 +285,12 @@ ul {
     width: 30px;
 }
 
+
 /*hero section*/
 .hero-section{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 
     background-color: whitesmoke;
     background-image: linear-gradient(
@@ -290,8 +302,8 @@ ul {
     
     background-size: cover;
     background-position: center;
-    height: 800px;
-    width: 100%;
+    height: 500px;
+    width: 1890px;
 
 }
 
@@ -319,6 +331,77 @@ ul {
 }
 
 
+/*shop-section*/
+.shop-section{
+    background-color: whitesmoke;
+    max-width: 1480px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0;
+    font-size: 13px !important;
+    line-height: 19px !important;
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
+/*box1*/
+.desktop-grid-1{
+    padding: 20px 0 15px 0;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    height: 420px;
+    width: 320px;
+    max-width: 400px;
+}
 
+.shopheader{
+    padding: 0 20px;
+    margin-bottom: 10px;
+    height: 20px;
+}
 
+.ss-header-text{
+    color: black;
+    height: 28px;
+    width: 270px;
+    font-size: 21px !important;
+    line-height: 27.3px !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.a-section{
+    flex-grow: 1;
+    height: 275px;
+    margin-bottom: 44px;
+    margin: 0 20px;
+}
+
+.asectionimg{
+    width: 100%;
+    height: 300px;  
+}
+
+.asectionimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    display: block;
+}
+
+.outerasec{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ss-footer-text{
+    color: blue;
+    text-decoration: none;
+    padding: 20px;
+}
