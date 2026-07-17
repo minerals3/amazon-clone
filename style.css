@@ -405,3 +405,29 @@ ul {
     text-decoration: none;
     padding: 20px;
 }
+
+/*box2*/
+.asecpart1-text{
+    color: black;
+}
+
+.ssbinner{
+    display: flex;
+    flex-direction: column;
+}
+
+.ssb2-part1{
+    display: flex;
+}
+
+.ssb2-part2{
+    display: flex;
+}
+
+.asecpart2-text{
+    color: black;
+}
+
+.ssb{
+    margin: 10px;
+}
